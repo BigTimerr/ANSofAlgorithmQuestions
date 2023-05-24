@@ -16,12 +16,12 @@ public:
 
         if(n==1) return {0};   //如果树只有一个节点就直接返回
 
-        vector<vector<int>> doubleEdges;   //保存边的信息，双向保存
-        vector<int> inDegree;               //保存每个节点的度（包含出度和入度）
+        vector<vector<int>> doubleEdges(n);   //保存边的信息，双向保存
+        vector<int> inDegree(n);               //保存每个节点的度（包含出度和入度）
 
         for (auto edge: edges) {
-            doubleEdges[edge[0]].emplace_back(edge[1]);
-            doubleEdges[edge[1]].emplace_back(edge[0]);
+            doubleEdges[edge[0]].push_back(edge[1]);
+            doubleEdges[edge[1]].push_back(edge[0]);
             ++inDegree[edge[0]];
             ++inDegree[edge[1]];
         }
@@ -30,7 +30,7 @@ public:
         vector<int> ans;
 
         for (int i = 0; i < n; ++i) {
-            if (inDegree[i] == 0){
+            if (inDegree[i] == 1){
                 que.emplace(i);
             }
         }
@@ -56,13 +56,13 @@ public:
             que.pop();
         }
         return ans;
-
     }
 };
 
 int main(){
     int n = 6;
     vector<vector<int>> edges = {{3,0},{3,1},{3,2},{3,4},{5,4}};
+//    vector<vector<int>> edges = {{1,0},{1,2},{1,3}};
     Solution solu = Solution();
     auto res = solu.findMinHeightTrees(n, edges);
     std::cout << "Vector elements: ";
