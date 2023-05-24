@@ -59,15 +59,15 @@ public:
     }
 };
 
-int main(){
-    int n = 6;
-    vector<vector<int>> edges = {{3,0},{3,1},{3,2},{3,4},{5,4}};
-//    vector<vector<int>> edges = {{1,0},{1,2},{1,3}};
-    Solution solu = Solution();
-    auto res = solu.findMinHeightTrees(n, edges);
-    std::cout << "Vector elements: ";
-    for (int i = 0; i < res.size(); i++) {
-        std::cout << res[i] << " ";
-    }
-    std::cout << std::endl;
-}
+//int main(){
+//    int n = 6;
+//    vector<vector<int>> edges = {{3,0},{3,1},{3,2},{3,4},{5,4}};
+////    vector<vector<int>> edges = {{1,0},{1,2},{1,3}};
+//    Solution solu = Solution();
+//    auto res = solu.findMinHeightTrees(n, edges);
+//    std::cout << "Vector elements: ";
+//    for (int i = 0; i < res.size(); i++) {
+//        std::cout << res[i] << " ";
+//    }
+//    std::cout << std::endl;
+//}
