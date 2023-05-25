@@ -49,14 +49,14 @@ public:
 };
 
 
-int main(){
-    int numCourses = 4;
-    vector<vector<int>> prerequisites = {{1, 0}, {2,0}};
-
-    Solution solution = Solution();
-    auto res = solution.findOrder(numCourses, prerequisites);
-    for (int i = 0; i < res.size(); i++) {
-        std::cout << res[i] << " ";
-    }
-    std::cout << std::endl;
-}
+//int main(){
+//    int numCourses = 4;
+//    vector<vector<int>> prerequisites = {{1, 0}, {2,0}};
+//
+//    Solution solution = Solution();
+//    auto res = solution.findOrder(numCourses, prerequisites);
+//    for (int i = 0; i < res.size(); i++) {
+//        std::cout << res[i] << " ";
+//    }
+//    std::cout << std::endl;
+//}
