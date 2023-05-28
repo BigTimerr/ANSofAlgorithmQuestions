@@ -50,15 +50,15 @@ public:
     }
 };
 
-int main(){
-
-    vector<vector<int>> richer = {{1,0},{2,1},{3,1},{3,7},{4,3},{5,3},{6,3}};
-    vector<int> quiet = {3,2,5,4,6,1,7,0};
-//    vector<vector<int>> graph = {{1,2,3,4},{1,2},{3,4},{0,4},{}};
-
-    Solution solution = Solution();
-    auto res = solution.loudAndRich(richer, quiet);
-    for (auto x: res) {
-        cout<<x<<" ";
-    }
-}
+//int main(){
+//
+//    vector<vector<int>> richer = {{1,0},{2,1},{3,1},{3,7},{4,3},{5,3},{6,3}};
+//    vector<int> quiet = {3,2,5,4,6,1,7,0};
+////    vector<vector<int>> graph = {{1,2,3,4},{1,2},{3,4},{0,4},{}};
+//
+//    Solution solution = Solution();
+//    auto res = solution.loudAndRich(richer, quiet);
+//    for (auto x: res) {
+//        cout<<x<<" ";
+//    }
+//}
