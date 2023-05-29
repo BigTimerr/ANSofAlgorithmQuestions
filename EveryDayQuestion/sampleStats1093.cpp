@@ -54,6 +54,7 @@ public:
 
 
         int nums = 0 ;
+        // 这里有点牛逼，求中位数的位置！！！！
         int left = (numsCount + 1) / 2;
         int right = (numsCount + 2) / 2;
         for (int i = 0; i < n; ++i) {
