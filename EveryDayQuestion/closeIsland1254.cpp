@@ -52,17 +52,17 @@ public:
     }
 };
 
-int main(){
-    vector<vector<int>> matrix = {
-            {0,0,1,0,0},{0,1,0,1,0},{0,1,1,1,0}
-    };
-
-    Solution solu = Solution();
-    int num = solu.closedIsland(matrix);
-    for (int i = 0; i < 3; ++i) {
-        for (int j = 0; j < 5; ++j) {
-            cout<<matrix[i][j];
-        }
-    }
-
-}
+//int main(){
+//    vector<vector<int>> matrix = {
+//            {0,0,1,0,0},{0,1,0,1,0},{0,1,1,1,0}
+//    };
+//
+//    Solution solu = Solution();
+//    int num = solu.closedIsland(matrix);
+//    for (int i = 0; i < 3; ++i) {
+//        for (int j = 0; j < 5; ++j) {
+//            cout<<matrix[i][j];
+//        }
+//    }
+//
+//}
