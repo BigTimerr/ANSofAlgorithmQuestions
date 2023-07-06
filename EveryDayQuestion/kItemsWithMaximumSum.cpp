@@ -15,10 +15,10 @@ public:
     }
 };
 
-int main(){
-    int numOnes = 6, numZeros = 6, numNegOnes = 6, k = 13;
-    Solution solution = Solution();
-
-    int res = solution.kItemsWithMaximumSum(numOnes, numZeros, numNegOnes, k);
-    cout<<res;
-}
+//int main(){
+//    int numOnes = 6, numZeros = 6, numNegOnes = 6, k = 13;
+//    Solution solution = Solution();
+//
+//    int res = solution.kItemsWithMaximumSum(numOnes, numZeros, numNegOnes, k);
+//    cout<<res;
+//}
