@@ -44,12 +44,12 @@ public:
     }
 };
 
-int main(){
-    string s = "ehvfwtrvcodllgjctguxeicjoudmxbevzrvravkidnricwsbnxmxvdckzahmqzbrlqugtmjvoqbxarmlgjeqcorhnodvnoqfomdp";
-    vector<int> indices = {1,31,44,70,23,73,76,92,90,86,42,4,50,17,53,20,55,15,38,64,25,9,7,68,60,88,96,47,57,34,81,78,28};
-    vector<string> sources = {"hvf","vzr","cw","jvo","jo","qb","ar","noqf","dv","rh","ri","wt","mx","gux","dc","eic","kz","ct","kidn","lq","ud","odll","vc","tm","qz","no","om","bn","ahm","vra","jeqco","ml","xb"};
-    vector<string> targets = {"ajq","zb","r","fai","e","zs","io","snxd","nw","oi","ofb","quq","gj","nsys","dk","sf","muj","ll","hqx","k","n","ptrya","f","qek","u","dhj","e","kr","waj","rvkr","roaoeq","mci","djw"};
-
-    Solution solution = Solution();
-    cout << solution.findReplaceString(s, indices, sources, targets);
-}
+//int main(){
+//    string s = "ehvfwtrvcodllgjctguxeicjoudmxbevzrvravkidnricwsbnxmxvdckzahmqzbrlqugtmjvoqbxarmlgjeqcorhnodvnoqfomdp";
+//    vector<int> indices = {1,31,44,70,23,73,76,92,90,86,42,4,50,17,53,20,55,15,38,64,25,9,7,68,60,88,96,47,57,34,81,78,28};
+//    vector<string> sources = {"hvf","vzr","cw","jvo","jo","qb","ar","noqf","dv","rh","ri","wt","mx","gux","dc","eic","kz","ct","kidn","lq","ud","odll","vc","tm","qz","no","om","bn","ahm","vra","jeqco","ml","xb"};
+//    vector<string> targets = {"ajq","zb","r","fai","e","zs","io","snxd","nw","oi","ofb","quq","gj","nsys","dk","sf","muj","ll","hqx","k","n","ptrya","f","qek","u","dhj","e","kr","waj","rvkr","roaoeq","mci","djw"};
+//
+//    Solution solution = Solution();
+//    cout << solution.findReplaceString(s, indices, sources, targets);
+//}
